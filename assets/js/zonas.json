@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "moneda": "CLP",
+    "base_comuna": "La Florida"
+  },
+  "zonas": [
+    {
+      "zona": "A (cercanas)",
+      "recargo": 3000,
+      "comunas": [
+        "La Florida",
+        "La Granja",
+        "Peñalolén",
+        "Macul",
+        "San Ramón",
+        "Puente Alto",
+        "San Joaquin",
+        "La Pintana",
+        "Ñuñoa",
+        "La Cisterna",
+        "La Reina",
+        "San Miguel"
+      ]
+    },
+
+    {
+      "zona": "B (media distancia)",
+      "recargo": 5000,
+      "comunas": [
+        "Providencia",
+        "El Bosque",
+        "San Miguel",
+        "Pedro Aguirre Cerda",
+        "Santiago Centro"
+      ]
+    },
+
+    {
+      "zona": "C (lejanas)",
+      "recargo": 7000,
+      "comunas": [
+        "Estación Central",
+        "Independencia",
+        "Lo Espejo",
+        "Recoleta",
+        "Cerrillos",
+        "Las Condes",
+        "Quinta Normal"
+      ]
+    },
+
+    {
+      "zona": "D (extendidas)",
+      "recargo": 9000,
+      "comunas": [
+        "Conchali",
+        "Lo Prado",
+        "Cerro Navia",
+        "Vitacura",
+        "Huechuraba",
+        "Renca",
+        "San Bernardo"
+      ]
+    },
+
+    {
+      "zona": "E (extendidas Medio Lejos)",
+      "recargo": 12000,
+      "comunas": [
+        "Lo Barnechea",
+        "Pirque",
+        "Pudahuel",
+        "Quilicura",
+        "Caleta de Tango",
+        "Padre Hurtado",
+        "Buin"
+      ]
+    },
+    {
+      "zona": "F (extendidas Lejos)",
+      "recargo": 16000,
+      "comunas": [
+        "Talagante",
+        "Isla de Maipo",
+        "Colina",
+        "San Jose de Maipo"     
+      ]
+    }
+  ]
+}
+

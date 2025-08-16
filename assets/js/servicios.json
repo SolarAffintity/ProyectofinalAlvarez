@@ -1,0 +1,10 @@
+[
+  { "id": 1, "nombre": "Masaje Relajante", "precioBase": 30000 },
+  { "id": 2, "nombre": "Drenaje Linfático", "precioBase": 45000 },
+  { "id": 3, "nombre": "Fangoterapia", "precioBase": 40000 },
+  { "id": 4, "nombre": "SPA Manos y Pies", "precioBase": 30000 },
+  { "id": 5, "nombre": "Descontracturante", "precioBase": 30000 },
+  { "id": 6, "nombre": "Descompresión Lumbar", "precioBase": 30000 },
+  { "id": 7, "nombre": "Cervico Craneal.", "precioBase": 30000 }
+
+]
