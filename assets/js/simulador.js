@@ -1,4 +1,4 @@
-// simulador.js - Modalidad (recinto/domicilio) + zonas por comuna + multiplicadores (30=x1, 60=x1.5) + WhatsApp + (NUEVO) 3 horarios fijos
+// simulador.js - Modalidad (recinto/domicilio) + zonas por comuna + multiplicadores (30=x1, 60=x1.5) + WhatsApp + 3 horarios fijos
 document.addEventListener("DOMContentLoaded", () => {
   const contenedor = document.getElementById("simulador");
   if (!contenedor) return;
@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const urlServicios = "../assets/js/servicios.json"; // Ruta relativa desde reserva.html
   const urlZonas = "../assets/js/zonas.json";         // Recargos por comuna (CLP)
 
-  // Config: multiplicadores por duración (sin 90 min)
+  // Config: multiplicadores por duración 
   const multiplicadoresDuracion = { "30": 1, "60": 1.5 };
 
   // Número de WhatsApp (formato internacional sin +)
-  const telefonoWhatsApp = "56912345678"; // TODO: Reemplaza por tu número
+  const telefonoWhatsApp = "56940641465"; // 
 
   let servicios = [];
   let mapaPrecios = new Map(); // id -> precioBase
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const servicioSel = document.getElementById("servicio");
     const duracionSel = document.getElementById("duracion");
     const fechaInput = document.getElementById("fecha");
-    const horarioSel = document.getElementById("horario"); // NUEVO
+    const horarioSel = document.getElementById("horario"); 
     const modalidadSel = document.getElementById("modalidad");
     const wrapComuna = document.getElementById("wrapComuna");
     const comunaSel = document.getElementById("comuna");
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
     servicioSel.addEventListener("change", actualizarVista);
     duracionSel.addEventListener("change", actualizarVista);
     comunaSel.addEventListener("change", actualizarVista);
-    // (El horario no afecta el total; no necesita actualizarVista)
+    // El horario no afecta el total
 
     function actualizarVista() {
       if (modalidadSel.value === "domicilio") {
